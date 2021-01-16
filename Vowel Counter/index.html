@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><header>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function checkVowel(){
+             var i,vowels=0;
+           let str=document.getElementsByClassName("note").value;
+           const checker=["a","e","i","o","u"];
+           for(let char of str.toLowerCase()){
+               if(checker.includes(char)){
+                   counter++;
+               }
+           }
+           document.getElementById("demo").innerHTML="counter";
+        }
+
+
+   </script>
+</header>
+<body>
+    <div class="container">
+        <h1>Vowel Counter </h1>
+        <input  class="note" type="text" >
+        <button id="action" onclick="checkVowel()">Check</button>
+        <p id="demo"></p>
+    </div>
+    
+</body></html>

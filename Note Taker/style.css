@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container
+{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    padding: 20px;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+p{
+    color: green;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+input{
+    width: 80%;
+    padding: 20px;
+}
+span{
+    font-size:40px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: green;
+    width: 90px;
+    color: white;
+    padding: 15px;
+    font-size: 14px;;
+}

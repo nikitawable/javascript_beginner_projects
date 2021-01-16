@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container
+{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+ .title
+{
+    padding: 60px;
+    font-size: 48px;
+    letter-spacing: 4px;
+
+}
+input{
+    width: 200px;
+    padding:10px ;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    width: 90px;
+}
+
+#mylist{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#mylist button{
+    width: auto;
+}
+#i1{
+    margin:  5px;
+    width: auto;
+    height: auto;
+    
+}
+#i2
+{
+    margin:  5px;
+    width: auto;
+    height: auto;
+    
+    
+}
